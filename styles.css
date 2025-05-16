@@ -15,9 +15,6 @@ body {
   margin: auto;
 }
 
-
-
-
 /* header bogo style */
 .bogo-wrapper {
   display: flex;
@@ -40,10 +37,6 @@ body {
   margin: 0;
   white-space: nowrap;
 }
-
-
-
-
 
 /* unit price style  */
 .option {
@@ -79,11 +72,6 @@ body {
   vertical-align: middle;
 }
 
-
-
-
-
-
 /* price styles */
 .price {
   display: inline;
@@ -107,10 +95,6 @@ body {
   text-align: right;
   font-weight: lighter;
 }
-
-
-
-
 
 /* selection option styles */
 .options-container {
@@ -141,16 +125,12 @@ select {
   font-size: 0.9rem;
 }
 
-
-
-
-
 /* middle box styles */
 .most-popular {
   position: absolute;
   top: -10px;
   right: -2px;
-  background: #FF6B82;
+  background: #ff6b82;
   color: white;
   padding: 4px 10px;
   font-size: 0.7rem;
@@ -161,24 +141,16 @@ select {
 }
 
 .option:nth-child(2) {
-  border-color: #FF6B82;
-  background-color: #fff0f5;
+  border-color: #ff6b82;
+  background-color: #fffcfc;
   border-style: solid;
   border-width: 2px;
 }
 
-
-
-
-
 /* free delivery styles */
 .free-delivery {
-    color: #ff3f75;
-  } 
-
-
-
-
+  color: #ff3f75;
+}
 
 /* delivery styles */
 .delivery-total {
@@ -186,9 +158,6 @@ select {
   justify-content: space-between;
   margin-bottom: 14px;
 }
-
-
-
 
 /* add ot cart button styles */
 .add-to-cart {
@@ -202,17 +171,25 @@ select {
   cursor: pointer;
 }
 
-
-
-
-
 /* footer powered by styles */
 .powered-by {
   font-size: 12px;
-  color:rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.4);
   font-style: italic;
   margin-top: 10px;
   text-align: right;
 }
 
+@media (max-width: 400px) {
+  .price {
+    margin-left: 0;
+    font-size: 1rem;
+    text-align: left;
+    display: block;
+  }
 
+  .old-price {
+    text-align: left;
+    font-size: 0.85rem;
+  }
+}
