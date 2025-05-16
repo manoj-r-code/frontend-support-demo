@@ -5,7 +5,7 @@ This project is for the purpose of  **Frontend Technical Support Demo** built en
 ##  Live Demo
 
 Check out the deployed project here:  
- [Live Site](https://your-deployed-url.com)
+ [Live Site](https://manoj-r-code.github.io/frontend-support-demo/)
 
 ## Tech Stack
 
